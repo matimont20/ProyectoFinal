@@ -1,0 +1,13 @@
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/model/Order.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/ProductBackendApplication.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/repository/ProductRepository.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/service/EmailService.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/controller/OrderController.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/model/User.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/repository/UserRepository.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/model/Products.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/service/OrderService.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/service/UserServices.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/controller/ProductController.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/repository/OrderRepository.java
+/home/borboton/Documentos/workspace/shop-backend/src/main/java/com/famusic/productbackend/service/ProductService.java
