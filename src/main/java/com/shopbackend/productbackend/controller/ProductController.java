@@ -1,6 +1,6 @@
-package com.famusic.productbackend.controller;
-import com.famusic.productbackend.model.Products;
-import com.famusic.productbackend.service.ProductService;
+package com.shopbackend.productbackend.controller;
+import com.shopbackend.productbackend.model.Products;
+import com.shopbackend.productbackend.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,6 @@
-package com.famusic.productbackend.service;
-import com.famusic.productbackend.model.Products;
-import com.famusic.productbackend.model.Products;
-import com.famusic.productbackend.repository.ProductRepository;
+package com.shopbackend.productbackend.service;
+import com.shopbackend.productbackend.model.Products;
+import com.shopbackend.productbackend.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

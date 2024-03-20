@@ -1,6 +1,6 @@
-package com.famusic.productbackend.repository;
+package com.shopbackend.productbackend.repository;
 
-import com.famusic.productbackend.model.Products;
+import com.shopbackend.productbackend.model.Products;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 @Repository

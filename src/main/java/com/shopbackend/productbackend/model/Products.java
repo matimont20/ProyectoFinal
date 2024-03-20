@@ -1,4 +1,4 @@
-package com.famusic.productbackend.model;
+package com.shopbackend.productbackend.model;
 import jakarta.persistence.*;
 
 @Entity
