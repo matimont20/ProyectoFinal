@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+  margin: 0;
+}
+body{
+  background: white;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.boton{
+  width: 50px;
+  justify-content: center;
+}
