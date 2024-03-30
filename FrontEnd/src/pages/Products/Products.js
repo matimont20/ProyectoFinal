@@ -96,17 +96,17 @@ class Products extends Component {
   render() {
     const { form } = this.state;
     return (
-      <div className="App">
+      <div className="">
         <Container>
+        <br />
           <h2> Registo de Productos</h2>
-
-          <button style={{ marginLeft: "auto" }} className="btn btn-success" onClick={() => { this.setState({ form: null, tipoModal: 'insertar' }); this.modalInsertar() }}>Agregar</button>
+          <button style={{ marginLeft: "auto" }} className="btn btn-success boton" onClick={() => { this.setState({ form: null, tipoModal: 'insertar' }); this.modalInsertar() }}>Agregar</button>
           <br />
           <table className="table ">
             <thead>
               <tr>
                 <th>Nro</th>
-                <th width="20%">Imagen</th>
+                <th width="20%" className='card-personalizada'>Imagen</th>
                 <th>Producto</th>
                 <th>Uso</th>
                 <th>condition</th>

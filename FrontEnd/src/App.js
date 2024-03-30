@@ -5,10 +5,7 @@ import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import PostAddIcon from '@material-ui/icons/PostAdd';
-import ListIcon from '@material-ui/icons/List';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -18,11 +15,9 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
 } from "react-router-dom";
 import './App.css'
 import Home from './pages/Home'
-// import CardList from './card-list/CardList';
 import Products from './pages/Products/Products';
 
 const useStyles = makeStyles((theme) => ({
@@ -91,6 +86,7 @@ function App() {
         </div>
       </Router>
       <Divider />
+
     </div>
   );
 

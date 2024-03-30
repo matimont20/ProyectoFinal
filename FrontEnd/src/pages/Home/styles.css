@@ -29,3 +29,7 @@ body{
 .templateContainer .template_Container .template img{
     height: 250px;
 } 
+.card-personalizada{
+    width: 20%;
+    height: 20%;
+}
