@@ -8,8 +8,6 @@ public class Products {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column
-    private String name;
-    @Column
     private String item;
     @Column
     private String use;
@@ -17,6 +15,12 @@ public class Products {
     private String condition;
     @Column
     private String price;
+    @Column
+    private String reservation_date;
+    @Column
+    private String url;
+    @Column
+    private String status;
 
     public Long getId() {
         return id;
@@ -24,14 +28,6 @@ public class Products {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getItem() {
@@ -64,5 +60,29 @@ public class Products {
 
     public void setPrice(String price) {
         this.price = price;
+    }
+
+    public String getReservation_date() {
+        return reservation_date;
+    }
+
+    public void setReservation_date(String reservation_date) {
+        this.reservation_date = reservation_date;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

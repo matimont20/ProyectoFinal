@@ -24,6 +24,12 @@ public class ProductController {
         return productService.getAllProducts();
     }
 
+    @ResponseStatus(HttpStatus.OK)
+    @GetMapping("/getAllReservedProducts")
+    public List<Products> getAllReservedProducts() {
+        LOGGER.info("Solicitud getAllReservedProducts");
+        return productService.getAllReservedProducts();
+    }
     @GetMapping("/{id}")
     public Products getProductById(@PathVariable Long id) {
         LOGGER.info("Solicitud getProductById con ID: {}", id);

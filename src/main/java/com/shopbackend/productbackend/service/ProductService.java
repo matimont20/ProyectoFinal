@@ -5,12 +5,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 @Service
-public class ProductService {
+public class    ProductService {
     @Autowired
     private ProductRepository productRepository;
     public List<Products> getAllProducts() {
-
         return productRepository.findAll();
+    }
+    public List<Products> getAllReservedProducts() {
+        return productRepository.findByCondition("Reserved");
     }
     public Products getProductById(Long id) {
         return productRepository.findById(id)
